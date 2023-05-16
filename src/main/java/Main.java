@@ -9,5 +9,12 @@ public class Main {
         description1.description = "Моющий, мощный, huawei";
 
         card1.description = description1;
+
+        Flat flat1 = new Flat();
+        BedRoom bedRoom1 = new BedRoom();
+        bedRoom1.beds = 2;
+        bedRoom1.square = 15;
+        flat1.bedRoom = bedRoom1;
+
     }
 }
